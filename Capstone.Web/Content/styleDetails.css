@@ -1,0 +1,70 @@
+﻿table {
+    padding-left: 30px;
+    border-collapse: collapse;
+    border: none;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+tr:nth-child(odd) {
+    background: white;
+    border-color: grey;
+    border-width: 2px;
+    
+}
+tr:nth-child(even) {
+    border-color: #ccc;
+}
+.weather_button {
+    padding: 7px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+}
+    .weather_button:hover {
+        text-decoration: none;
+        background-color: white;
+        color: black;
+    }
+.img_details {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    position: relative;
+    color: white;
+}
+.details_text {
+    position: absolute;
+    top: 65%;
+    right: 90px;
+    width: auto;
+    padding: 15px;
+    padding-left: 300px;
+    padding-right: 30px;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    background-color: rgba(100,100,100,.7);
+    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+}
+
+.heading_text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0%, -10.5%);
+    font-size: 35px;
+    color: white;
+    background-color: rgba(100,100,100,.7);
+    height: 200px;
+    width: 200px;
+    padding: 40px;
+}
+body {
+    background-color: rgba(100,100,100,.7);
+}
+
+
+
+
